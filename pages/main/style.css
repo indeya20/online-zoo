@@ -1,0 +1,33 @@
+/* reset to defaults/ Utilities */
+
+
+
+.nav-bar{
+    background-color: black;
+    border-radius: 1px;
+    font-size: 30px;
+    font-family: 'Roboto','sans-serif';
+       
+}
+
+.nav-bar li{
+    float:left;
+    list-style:none;
+    margin:28px 44px;
+}
+
+.nav-bar ul{
+        overflow: hidden;
+}
+
+.nav-bar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.bamboo-cap{
+    width: 200px;
+}
+
