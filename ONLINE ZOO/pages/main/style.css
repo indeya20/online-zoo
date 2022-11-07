@@ -1,0 +1,137 @@
+/* reset to defaults/ Utilities */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .container{
+        width: 1600px;
+        margin: 0px auto;
+    }
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+}
+
+   
+nav{
+    width: 1600px;
+    background-color: black;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 100px;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 15px;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    list-style: none;
+    
+
+}
+
+.bamboo{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 81px;
+    
+}
+
+
+.logo-text{
+    margin-top: -49px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+
+    
+
+    
+}
+nav a{
+    float: left;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    width: 500%;
+    text-align: center;
+    
+
+}
+
+nav .design{
+    display: inline-block;
+    padding: 0 0 5px 602px;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.panda-img{
+    width: 1600px;
+    height: 780px;
+    
+    
+}
+
+.Eclipse{
+    position: absolute;
+    width: 383px;
+    height: 465px;
+    left: calc(64% - 465px/2 + 239.5px);
+    top: 92px;
+    
+}
+
+.online-text{
+position: absolute;
+width: 677.31px;
+height: 400px;
+left: calc(50% - 500.31px/2 + 330.15px);
+top: 166px;
+
+font-weight: 800;
+font-size: 50px;
+line-height: 75%;
+
+/* or 80px */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.watch-btn{
+    position: absolute;
+width: 298px;
+height: 54px;
+left: calc(47% - 410px/2 + 18px);
+top: 540px;
+color: white;
+
+/* orange */
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+}
