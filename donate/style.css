@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1600px;
+    margin: 0px auto;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+
+
+header {
+    display: flex;
+
+
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+nav {
+    width: 1600px;
+    background-color: black;
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 100px;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding: 15px;
+}
+
+
+
+.logo {
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    list-style: none;
+}
+
+nav a {
+    float: left;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    width: 500%;
+    text-align: center;
+
+
+}
+
+.design {
+    float: right;
+    margin-top: -53px;
+    margin-right: 200px;
+    color: white;
+    
+}
+
+.panda-img {
+    position: absolute;
+    height: 390px;
+    left: 472px;
+    top: 88px;
+}
+
+.bg1-color {
+    position: absolute;
+    margin-top: 390px;
+}
+
+
+
+.help {
+
+    /* THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP! */
+
+    position: absolute;
+    height: 47px;
+    left: 350px;
+    right: 223px;
+    top: 500px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+
+}
+
+.info {
+    position: absolute;
+    height: 94px;
+    left: 710px;
+    right: 220px;
+    top: 553px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+.donation-info {
+    position: absolute;
+    width: 341px;
+    height: 47px;
+    margin-left: 230px;
+    top: 697px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+}
+
+.pick-feed {
+    position: absolute;
+    width: 463px;
+    height: 58px;
+    left: 250px;
+    top: 0px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FE9013
+}
+
+
+.bg2-color {
+    position: absolute;
+    height: 964px;
+    left: 700px;
+    right: 220px;
+    top: 790px;
+    margin-top: 10px;
+}
+
+.pick-feed {
+    width: 976px;
+    height: 862px;
+    margin-left: 800px;
+    align-items: center;
+    top: 844px;
+
+}
+
+.info-1 {
+    position: absolute;
+    width: 1095px;
+    height: 29px;
+    margin-top: 820px;
+    margin-left: 360px;
+
+
+    /* subtitle */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    /* identical to box height, or 29px */
+
+    color: #333B41;
+
+}
+
+.number-of-days {
+    position: absolute;
+    width: 976px;
+    height: 862px;
+    margin-top: 1050px;
+    margin-left: 580px;
+
+}
+
+.x-icon {
+    position: absolute;
+    width: 976px;
+    height: 862px;
+    margin-top: 1070px;
+    margin-left: 720px;
+
+}
+
+.panda-icon {
+    position: absolute;
+    width: 976px;
+    height: 862px;
+    margin-top: 950px;
+    margin-left: 790px;
+
+}
+
+.panda-diet {
+    position: absolute;
+    width: 976px;
+    height: 862px;
+    margin-top: 1117px;
+    margin-left: 548px;
+
+}
+
+.amount {
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 4px;
+    top: 461px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 790px;
+    margin-top: 880px;
+
+}
+
+.progress-bar {
+    position: absolute;
+    width: 976px;
+    height: 40px;
+    margin-left: 320px;
+    margin-top: 870px;
+    top: 493px;
+
+}
+
+.price {
+    position: absolute;
+    width: 991px;
+    height: 36px;
+    left: 0px;
+    top: 539px;
+    margin-top: 870px;
+    margin-left: 796px;
+}
+
+#box {
+    margin-top: 850px;
+    margin-left: 800px;
+    position: absolute;
+    width: 268px;
+    height: 54px;
+    left: 354px;
+    top: 625px;
+}
+
+#monthly {
+
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 382px;
+    top: 704px;
+    margin-top: 850px;
+    margin-left: 800px;
+}
+
+#once {
+
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 382px;
+    top: 704px;
+    margin-top: 850px;
+    margin-left: 950px;
+
+}
+
+.label1 {
+
+    position: absolute;
+    margin-top: 1468px;
+    margin-left: 735px;
+}
+
+.label2 {
+
+    position: absolute;
+    margin-top: 1468px;
+    margin-left: 885px;
+
+}
+
+.feed-friend-btn {
+    position: absolute;
+    width: 299px;
+    height: 54px;
+    left: 342px;
+    top: 756px;
+    margin-top: 850px;
+    margin-left: 800px;
+    color: white;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease;
+    
+
+}
+
+.feed-friend-btn:hover {
+        
+        transform: scale(1.1);
+}
+
+
+
+
+.social-network{
+    position: absolute;
+width: 301px;
+height: 22px;
+left: 340px;
+top: 840.02px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+margin-top: 835px;
+margin-left: 806px;
+color: black;
+}
+
+
+.active {
+    background: active;
+    color: #FE9013;
+}
+
+.footer{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    padding:100px 15px;
+    background: black;
+    color: #F9804B;
+}
+
+/* Hiding - Input number arrow */
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
